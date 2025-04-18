@@ -9,6 +9,3 @@ dcl-pr esPar ind;
   numero int(10);
 end-pr;
 
-dcl-pr formatearFecha varchar(10)
-    fechaISO char(8);
-end-pr;

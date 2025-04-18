@@ -20,20 +20,5 @@ dcl-proc esPar export;
   return (%rem(numero:2) = 0);
 end-proc;
 
-dcl-proc formatearFecha export;
-  dcl-pi *n varchar(10);
-    fechaISO char(8);
-  end-pi;
 
-  dcl-s yyyy char(4);
-  dcl-s mm char(2);
-  dcl-s dd char(2);
-
-  yyyy = %subst(fechaISO:1:4);
-  mm = %subst(fechaISO:5:2);
-  dd = %subst(fechaISO:7:2);
-
-  return dd + '/' + mm + '/' + yyyy;
-
-end-proc;
 
