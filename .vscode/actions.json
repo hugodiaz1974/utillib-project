@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Compilar utillib.rpgle como módulo",
+    "command": "CRTRPGMOD MODULE(HUGOTMP/UTILLIB) SRCSTMF('/home/DNTYJ005/utillib/source/UTILLIB.RPGLE') TGTCCSID(37) DBGVIEW(*SOURCE) REPLACE(*YES)",
+    "environment": "ile",
+    "deployFirst": true,
+    "extensions": ["rpgle"]
+  },
+  {
+    "name": "Compilar mainpgm.rpgle como programa",
+    "command": "CRTBNDRPG PGM(HUGOTMP/MAINPGM) SRCSTMF('/home/DNTYJ005/utillib/source/MAINPGM.RPGLE') TGTCCSID(37) DBGVIEW(*SOURCE) REPLACE(*YES)",
+    "environment": "ile",
+    "deployFirst": true,
+    "extensions": ["rpgle"]
+}
+]

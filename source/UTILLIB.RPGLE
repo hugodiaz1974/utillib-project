@@ -1,6 +1,9 @@
 **free
 
-ctl-opt dftactgrp(*no) actgrp(*caller);
+// ctl-opt dftactgrp(*no) actgrp(*caller);
+
+
+*inlr = *on; // Set to *off to allow program to run
 
 dcl-proc sumar export;
   dcl-pi *n int(10);
@@ -33,3 +36,4 @@ dcl-proc formatearFecha export;
   return dd + '/' + mm + '/' + yyyy;
 
 end-proc;
+

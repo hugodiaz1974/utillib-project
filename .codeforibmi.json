@@ -1,0 +1,7 @@
+{
+    "deploy":{
+        "directory":"/home/dntyj005/utillib",
+        "sourcefile": "QRPGLESRC",
+        "library": "HUGOTMP"
+    }
+}
